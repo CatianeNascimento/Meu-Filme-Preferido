@@ -1,0 +1,73 @@
+/* Estilo index.html */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(209, 243, 158);
+}
+
+h2 {
+    font-family: Andale Mono, monospace;
+}
+#ol1 li{
+    margin: 1em;
+}
+
+.center {
+    text-align: center;
+    font-family: Andale Mono, monospace;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Andale Mono, monospace;
+
+}
+
+.pt-30 {
+    padding-top: 50px;
+}
+
+.img2 {
+    width: 250px;
+    padding: 30px;
+}
+
+#p1 {
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#menu ul{
+    background-color: #b8db72;
+    height: 50px;
+    margin-top: 0em;
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black; 
+    vertical-align: -webkit-baseline-middle;
+    font-family: Andale Mono, monospace;
+
+}
+
+#menu li a:hover {
+    color: green;
+}
+
+#img1 {
+    width: 500px;
+}
+
